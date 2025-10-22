@@ -266,8 +266,6 @@ main{
   width: 300%;
   border-radius: 50px;
   border: white;
-  background: rgba(0, 0, 0, 0.6);
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
   padding: 80px 10%;
   margin-bottom: 60px;
 }
@@ -627,9 +625,6 @@ h3{
     color: rgba(253, 254, 255, 0.8);
 }
 
-
-
-
 .card-text{
     font-size: 20px;
     margin-bottom: 10px;
@@ -685,12 +680,16 @@ h3{
   display: block;
   justify-content: flex-end;
   position: absolute;
-  right: 30%;
+  right: 40%;
   margin-top: -50px;
   
 
 }
 
+
+  .image3{
+    margin-left: 60px;
+  }
 
   nav {
     flex-wrap: wrap;
@@ -699,7 +698,7 @@ h3{
   nav ul {
    display: none;
     flex-direction: column;
-    width: 100%;
+    width: 90%;
     text-align: center;
     border-radius: 0 0 20px 20px;
     padding: 15px 0;
@@ -716,7 +715,7 @@ h3{
     color: rgb(80, 230, 11);
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-   right: 150px;
+   right: 1px;
   }
 
    nav ul.active {
@@ -737,7 +736,7 @@ h3{
   .box {
     flex-direction: column;
     gap: 18px;
-    margin-left: 30px;
+    margin-right: 10px;
   }
 
   .img1 img {
@@ -775,7 +774,7 @@ h3{
     gap: 20px;
     text-align: center;
     margin-top: 0;
-    margin-left: 30px;
+   margin-right: 10px;
   }
 
 .img2 {
@@ -873,11 +872,11 @@ font-size: 25px;
   }
 
   .project-card {
-    width: 150%;
-    max-width: 290px;
+    width: 170%;
+    max-width: 210px;
     padding: 10px;
     gap: 100px;
-    margin-right: 130px;
+    margin-right: 85px;
   }
 
   .PROJECTS h1 {
@@ -895,7 +894,7 @@ font-size: 25px;
     width: 120%;
     height: 20px;
     max-width: 90%;
-    margin-left: 20px;
+    margin-left: 1px;
   }
 
   .contact-info {
@@ -903,11 +902,11 @@ font-size: 25px;
   }
 
   .info-item{
-    margin-left: 30px;
+    margin-left: 10px;
   }
  
   .info-item p{
-    font-size: 20px;
+    font-size: 15px;
   }
 
  #Testimonial {
@@ -920,15 +919,17 @@ font-size: 25px;
     align-items: center;
     gap: 25px;
     padding-inline: 0;
+    
   }
 
   .Testimonialcard {
     width: 90%;
-    max-width: 400px;
+    max-width: 200px;
     flex: none;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     box-shadow: 0 0 10px rgba(255,255,255,0.4);
+    
   }
 
   .Testimonialcard .details {
