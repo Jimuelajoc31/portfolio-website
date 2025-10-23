@@ -988,8 +988,8 @@ font-size: 25px;
   .contact-form {
     width: 120%;
     height: 20px;
-    max-width: 90%;
-    margin-left: 1px;
+    max-width: 250%;
+    margin-left: -32px;
   }
 
   .contact-info {
@@ -1022,6 +1022,7 @@ font-size: 25px;
 
   .Testimonialcard {
     width: 90%;
+
   }
 
   .card-text {
